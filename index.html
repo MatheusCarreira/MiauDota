@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiauDota - Adote um Gatinho</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="img/logoMiaudota.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">🐾 MiauDota</div>
+            <div class="logo-img"><img src="img/logoMiaudota.png" alt=""></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#gatinhos">Gatinhos</a></li>
+                    <li><a href="#como-adotar">Como Adotar</a></li>
+                    <li><a href="#" id="btn-abrir-contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Encontre seu novo melhor amigo</h1>
+                <p>Muitos gatinhos carinhosos esperando por um lar cheio de amor</p>
+                <a href="#gatinhos" class="btn primary">Ver gatinhos disponíveis</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gatinhos" class="section">
+        <div class="container">
+            <h2>Gatinhos esperando por você</h2>
+            <div class="cards-grid">
+
+                <div class="card">
+                    <div class="card-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800');">
+                    </div>
+                    <div class="card-content">
+                        <h3>Luninha</h3>
+                        <p>Fêmea • 1 ano • Siamesa misturada • Muito carinhosa</p>
+                        <button class="btn secondary">Quero adotar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1533736727750-3f7a6d6d0e2e?w=800');">
+                    </div>
+                    <div class="card-content">
+                        <h3>Mimo</h3>
+                        <p>Macho • 8 meses • Laranja • Brincalhão e falante</p>
+                        <button class="btn secondary">Quero adotar</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img"
+                        style="background-image: url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800');">
+                    </div>
+                    <div class="card-content">
+                        <h3>Princesa</h3>
+                        <p>Fêmea • 2 anos • Preta • Calma e independente</p>
+                        <button class="btn secondary">Quero adotar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="como-adotar" class="section como-adotar">
+        <div class="container">
+            <h2>Como adotar?</h2>
+            <div class="steps">
+                <div class="step">
+                    <span>1</span>
+                    <p>Escolha seu gatinho favorito na lista</p>
+                </div>
+                <div class="step">
+                    <span>2</span>
+                    <p>Preencha o formulário de interesse</p>
+                </div>
+                <div class="step">
+                    <span>3</span>
+                    <p>Converse com a gente e combine a visita</p>
+                </div>
+                <div class="step">
+                    <span>4</span>
+                    <p>Leve seu novo amigo pra casa!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        <div id="modal-contato" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h2>Fale com a gente 💕</h2>
+                <p>Escolha o número que mais te atende:</p>
+
+                <div class="telefones-grid">
+                    <div class="telefone-item">
+                        <strong>WhatsApp Principal</strong>
+                        <a href="https://wa.me/555384785943" target="_blank" class="tel-link">(53) 98478-5943</a>
+                        <small>Responde rápido durante o dia</small>
+                    </div>
+
+                    <div class="telefone-item">
+                        <strong>WhatsApp Adoções</strong>
+                        <a href="https://wa.me/555384652732" target="_blank" class="tel-link">(53) 98465-2732</a>
+                        <small>Dúvidas sobre adoção e visitas</small>
+                    </div>
+
+                    <div class="telefone-item">
+                        <strong>Problemas Gerais</strong>
+                        <a href="https://wa.me/555381486913" class="tel-link">(53) 98148-6913</a>
+                        <small>Horário comercial</small>
+                    </div>
+
+                    <div class="telefone-item">
+                        <strong>Emergência / Finais de semana</strong>
+                        <a href="https://wa.me/555399477529" target="_blank" class="tel-link">(53) 99947-7529</a>
+                        <small>Só casos urgentes</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2011 MiauDota - Todos os direitos reservados</p>
+            <p>Feito com muito carinho para ajudar gatinhos a encontrarem um lar 💕</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

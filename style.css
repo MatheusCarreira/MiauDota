@@ -43,14 +43,23 @@ header .container {
   align-items: center;
 }
 
-.logo {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--branco-puro);
+.logo-wrapper {
+  display: flex;
+  align-items: center;         
+  gap: 12px;                    
 }
 
-.logo-img{
-  font-size: 25px;
+.logo-img {
+  height: 60px;              
+  width: auto;                 
+  display: block;
+}
+
+.logo-text {
+  font-size: 2.2rem;            
+  font-weight: 700;
+  color: var(--branco-puro);
+  line-height: 1;
 }
 
 nav ul {
@@ -287,4 +296,13 @@ footer {
   .hero h1 { font-size: 2.6rem; }
   header .container { flex-direction: column; gap: 1rem; }
   nav ul { flex-direction: column; align-items: center; gap: 1rem; }
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+    height: 50px;               
+  }
+  .logo-text {
+    font-size: 1.8rem;
+  }
 }

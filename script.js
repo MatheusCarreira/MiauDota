@@ -57,6 +57,3 @@ if (btnAbrir && modal && btnFechar) {
     }
   });
 }
-
-
-
